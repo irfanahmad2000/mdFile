@@ -1,3 +1,4 @@
+
 # What is Selenium
 Selenium is one of the most widely used open source Web UI (User Interface) automation testing suite.It was originally developed by Jason Huggins in 2004 as an internal tool at Thought Works. Selenium supports automation across different browsers, platforms and programming languages.
 Selenium can be easily deployed on platforms such as Windows, Linux, Solaris and Macintosh. Moreover, it supports OS (Operating System) for mobile applications like iOS, windows mobile and android.
@@ -10,6 +11,15 @@ Automation testing covers both functional and performance test on an application
 # Test Automation for Web Applications
 If we take a look at the type of software applications prevailing in current market scenario, most of the software applications are written as web-based applications to be run in an internet browser. The testing strategy for web-based applications varies widely among companies and organizations.In an era of highly interactive and responsive software processes where many organizations are using some form of agile methodology, test automation is frequently becoming a requirement for software projects.
 ![Alt Text](https://static.javatpoint.com/tutorial/selenium/images/selenium-webdriver-architecture.png)
+# Configuring Selenium in Eclipse
+### Install Eclipse IDE
+Visit the official Eclipse website at www.eclipse.org.
+Navigate to the download section and select the appropriate version of Eclipse IDE for Java Developers.
+Choose the version compatible with your platform (Windows, macOS, Linux).
+Download and install Eclipse IDE following the provided instructions for your platform.
+![Alt Text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.automationtestinghub.com%2Feclipse-ide-download-and-install%2F&psig=AOvVaw37AU26gB8jJji2gRRcOW2N&ust=1709300917829000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJCG-b-O0IQDFQAAAAAdAAAAABAE)
+
+
 
 
 
