@@ -9,21 +9,27 @@ Selenium supports a variety of programming languages through the use of drivers 
 Automation testing uses the specialized tools to automate the execution of manually designed test cases without any human intervention. Automation testing tools can access the test data, controls the execution of tests and compares the actual result against the expected result. Consequently, generating detailed test reports of the system under test.
 Automation testing covers both functional and performance test on an application.
 # Test Automation for Web Applications
+
 If we take a look at the type of software applications prevailing in current market scenario, most of the software applications are written as web-based applications to be run in an internet browser. The testing strategy for web-based applications varies widely among companies and organizations.In an era of highly interactive and responsive software processes where many organizations are using some form of agile methodology, test automation is frequently becoming a requirement for software projects.
+
 ![Alt Text](https://static.javatpoint.com/tutorial/selenium/images/selenium-webdriver-architecture.png)
 # Configuring Selenium in Eclipse
+
 ### Install Eclipse IDE
 Visit the official Eclipse website at www.eclipse.org.
 Navigate to the download section and select the appropriate version of Eclipse IDE for Java Developers.
 Choose the version compatible with your platform (Windows, macOS, Linux).
 Download and install Eclipse IDE following the provided instructions for your platform.
-![Alt Text](https://www.automationtestinghub.com/images/java/eclipse-ide-2022-12-download-page.png)
+
+![Alt Text](https://www.automationtestinghub.com/images/java/eclipse-ide-2022-12-download-page.png
+
 # Install Java Development Kit (JDK)
 Visit the official Oracle website at www.oracle.com.
 Navigate to the Java SE Downloads page.
 Choose the latest version of the Java Development Kit (JDK) suitable for your operating system.
 Select the appropriate download link for your operating system (Windows, macOS, Linux).
 Follow the provided instructions to download and install the JDK on your system.
+
 ![Alt Text](https://media.geeksforgeeks.org/wp-content/uploads/20220622114149/Step1DownloadingJDKforWindows.png)
 
 
