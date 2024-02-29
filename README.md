@@ -17,7 +17,7 @@ Visit the official Eclipse website at www.eclipse.org.
 Navigate to the download section and select the appropriate version of Eclipse IDE for Java Developers.
 Choose the version compatible with your platform (Windows, macOS, Linux).
 Download and install Eclipse IDE following the provided instructions for your platform.
-![Alt Text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.automationtestinghub.com%2Feclipse-ide-download-and-install%2F&psig=AOvVaw37AU26gB8jJji2gRRcOW2N&ust=1709300917829000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJCG-b-O0IQDFQAAAAAdAAAAABAE)
+![Alt Text](https://www.automationtestinghub.com/images/java/eclipse-ide-2022-12-download-page.png)
 
 
 
