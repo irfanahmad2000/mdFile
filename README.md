@@ -18,6 +18,13 @@ Navigate to the download section and select the appropriate version of Eclipse I
 Choose the version compatible with your platform (Windows, macOS, Linux).
 Download and install Eclipse IDE following the provided instructions for your platform.
 ![Alt Text](https://www.automationtestinghub.com/images/java/eclipse-ide-2022-12-download-page.png)
+# Install Java Development Kit (JDK)
+Visit the official Oracle website at www.oracle.com.
+Navigate to the Java SE Downloads page.
+Choose the latest version of the Java Development Kit (JDK) suitable for your operating system.
+Select the appropriate download link for your operating system (Windows, macOS, Linux).
+Follow the provided instructions to download and install the JDK on your system.
+![Alt Text](https://media.geeksforgeeks.org/wp-content/uploads/20220622114149/Step1DownloadingJDKforWindows.png)
 
 
 
