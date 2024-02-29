@@ -32,6 +32,38 @@ Follow the provided instructions to download and install the JDK on your system.
 
 ![Alt Text](https://media.geeksforgeeks.org/wp-content/uploads/20220622114149/Step1DownloadingJDKforWindows.png)
 
+# Download WebDriver:
+Selenium WebDriver is the most important component of Selenium Tool's Suite. 
+Most commonly used WebDriver's include:
+Google Chrome Driver
+Internet Explorer Driver
+Opera Driver
+Safari Driver
+
+# Google WebDriver:
+Chrome browser implements the WebDriver protocol using an executable called ChromeDriver.exe. This executable start a server on your system which in turn is responsible for running your test scripts in Selenium.
+
+### To download the correct version of ChromeDriver for your system, you can follow these steps:
+
+Open your web browser and go to https://chromedriver.chromium.org.
+On the ChromeDriver website, locate the section for downloading ChromeDriver.
+Choose the appropriate version of ChromeDriver based on your Chrome browser version and operating system.
+Click on the download link to download the ChromeDriver executable file.
+Once the download is complete, extract the downloaded file if necessary.
+Ensure that the ChromeDriver executable is accessible and its location is known, as you'll need to specify this location in your Selenium code.
+
+![Alt Text](https://www.automationtestinghub.com/images/selenium/chrome-for-testing-availability-stable-beta-dev-canary.png)
+
+# Create a Project
+
+Open Eclipse IDE.
+Go to File > New > Other.
+In the "Select a wizard" dialog, expand the "Maven" folder.
+Select "Maven Project" and click "Next".
+Ensure that "Create a simple project (skip archetype selection)" is selected and click "Next".
+Enter the Group ID, Artifact ID, and Version for your Maven project. These are used to uniquely identify your project.
+Click "Finish" to create the Maven project.
+
 
 
 
