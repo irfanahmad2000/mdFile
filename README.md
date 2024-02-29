@@ -21,7 +21,7 @@ Navigate to the download section and select the appropriate version of Eclipse I
 Choose the version compatible with your platform (Windows, macOS, Linux).
 Download and install Eclipse IDE following the provided instructions for your platform.
 
-![Alt Text](https://www.automationtestinghub.com/images/java/eclipse-ide-2022-12-download-page.png
+![Alt Text](https://www.automationtestinghub.com/images/java/eclipse-ide-2022-12-download-page.png)
 
 # Install Java Development Kit (JDK)
 Visit the official Oracle website at www.oracle.com.
