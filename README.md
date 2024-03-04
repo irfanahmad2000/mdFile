@@ -10,7 +10,7 @@
 -
 [Install Java Development Kit (JDK) ](https://github.com/irfanahmad2000/mdFile/blob/main/README.md#install-java-development-kit-jdk)
 -
-[Download WebDriver](https://github.com/irfanahmad2000/mdFile/blob/main/README.md#download-webdriver)
+[Download WebDriver](https://github.com/irfanahmad2000/mdFile/blob/main/README.md#download-webdriver-1)
 -
 # What is Selenium
 Selenium is one of the most widely used open source Web UI (User Interface) automation testing suite.It was originally developed by Jason Huggins in 2004 as an internal tool at Thought Works. Selenium supports automation across different browsers, platforms and programming languages.
