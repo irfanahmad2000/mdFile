@@ -68,7 +68,8 @@ Ensure that "Create a simple project (skip archetype selection)" is selected and
 Enter the Group ID, Artifact ID, and Version for your Maven project. These are used to uniquely identify your project.
 Click "Finish" to create the Maven project.
 
-![My Image](https://drive.google.com/uc?export=view&id=1fonGYttcequtQW1rkJdnEkFsu3D-yOwm)
+![My Image](![image](https://github.com/irfanahmad2000/mdFile/assets/118617436/c20d2cb0-ed3d-4ea8-9321-c7a1774fd94c)
+)
 
 ![Cat](https://drive.google.com/uc?export=view&id=1fonGYttcequtQW1rkJdnEkFsu3D-yOwm)
 
