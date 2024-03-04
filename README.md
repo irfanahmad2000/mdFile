@@ -155,34 +155,34 @@ public class LoginPage {
 
 # Locators in Selenium
 
-### Locate Elements by CSS ID
+## Locate Elements by CSS ID
 This is by far the simplest method of locating an element. The CSS ID, stored in the id attribute of an HTML DOM element, is unique for every element in the page by design. Thus, an ID can uniquely identify an element.
-WebElement button=driver.findElement(By.cssSelector("[id=\"login-button\"]"));
+### WebElement button=driver.findElement(By.cssSelector("[id=\"login-button\"]"));
 
-### Locate Elements by CSS Class
+## Locate Elements by CSS Class
 A second strategy for locating elements on a page is to search by the class name. The class name is stored in the class attribute of an HTML tag. By design, a CSS class applies to a group of DOM elements.
 
-### Locate Elements by Name
+## Locate Elements by Name
 In HTML5, form elements often have a name attribute associated with them. The .find_element_by_name() method only returns the first element with the matching class. If multiple elements of the same name exist, the first matched element will be returned. No matching elements result in a NoSuchElementException error.
 
-### Locate Elements by XPath
+## Locate Elements by XPath
 If one has failed to identify an element by ID, class, or name, one would need to locate the element through its XML path.
 We will use the .find_element_by_xpath() method to locate an appropriate element in the document. The argument that the .find_element_by_xpath() method takes is the path to the element.
 
-### Locate Elements by tagName
+## Locate Elements by tagName
 One can locate elements by their HTML tag name using the .find_element_by_tag_name() method.
-page_heading = driver.find_element_by_tag_name('h1')
+### page_heading = driver.find_element_by_tag_name('h1')
 
-###  Locate Elements by linkText
+##  Locate Elements by linkText
 One can also search for a hyperlink element using the link text. One can either use the .find_element_by_link_text() method to search for the exact link’s text.
 Exact Link Text
-click_here_link = driver.find_element_by_link_text('Click Here')
+### click_here_link = driver.find_element_by_link_text('Click Here')
 
 
-### Locate Elements by partialLinkText
+## Locate Elements by partialLinkText
 Or one can also search for a hyperlink element using the partial link text .find_element_by_partial_link_text() method to search for a partial text.
 Partial Link Text 
-click_here_link = driver.find_element_by_partial_link_text('Click')
+### click_here_link = driver.find_element_by_partial_link_text('Click')
 
 
 
