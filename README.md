@@ -81,7 +81,106 @@ Enter the Group ID, Artifact ID, and Version for your Maven project. These are u
 Click "Finish" to create the Maven project.
 
 
-![Cat](https://drive.google.com/uc?export=view&id=1fonGYttcequtQW1rkJdnEkFsu3D-yOwm)
+
+Open Eclipse IDE.
+Go to File > New > Other.
+In the "Select a wizard" dialog, expand the "Maven" folder.
+Select "Maven Project" and click "Next".
+Ensure that "Create a simple project (skip archetype selection)" is selected and click "Next".
+Enter the Group ID, Artifact ID, and Version for your Maven project. These are used to uniquely identify your project.
+Click "Finish" to create the Maven project.
+
+
+## Project 
+### pic (1)
+
+![Screenshot 2024-02-26 214039](https://github.com/irfanahmad2000/mdFile/assets/118617436/3731ae94-ea25-459e-94ef-eafebd72a2b0)
+
+### pic (2)
+
+
+![Screenshot 2024-02-26 214059](https://github.com/irfanahmad2000/mdFile/assets/118617436/fe70aac1-26a8-4730-b837-0fa966bc892b)
+
+## pom.xml File
+
+
+
+![Screenshot 2024-02-26 214132](https://github.com/irfanahmad2000/mdFile/assets/118617436/5aa5715f-5a7e-4c35-bfd8-879399eb1486)
+
+
+## chrome driver
+
+![Screenshot 2024-02-26 214207](https://github.com/irfanahmad2000/mdFile/assets/118617436/e6acb6ce-d47e-4110-8b1d-72c549da4fdc)
+
+# Code
+
+package com.demo;
+import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+public class LoginPage {
+	WebDriver driver = null;
+	@BeforeSuite
+	public void doSetUp() {
+		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get("https://practicetestautomation.com/practice-test-login/");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+}
+	@Test
+	public void loginForm() throws InterruptedException {
+		WebElement username = driver.findElement(By.cssSelector("[id=\"username\"]"));
+		username.sendKeys("student");
+		
+		WebElement password = driver.findElement(By.cssSelector("[id=\"password\"]"));
+		password.sendKeys("Password123");
+	}
+}
+
+
+# The browser opened and navigated to the specified URL:
+
+
+![Screenshot 2024-02-26 214912](https://github.com/irfanahmad2000/mdFile/assets/118617436/20f72bd7-816d-4e39-a9c4-d83e28835edf)
+
+
+# Locators in Selenium
+
+### Locate Elements by CSS ID
+This is by far the simplest method of locating an element. The CSS ID, stored in the id attribute of an HTML DOM element, is unique for every element in the page by design. Thus, an ID can uniquely identify an element.
+WebElement button=driver.findElement(By.cssSelector("[id=\"login-button\"]"));
+
+### Locate Elements by CSS Class
+A second strategy for locating elements on a page is to search by the class name. The class name is stored in the class attribute of an HTML tag. By design, a CSS class applies to a group of DOM elements.
+
+### Locate Elements by Name
+In HTML5, form elements often have a name attribute associated with them. The .find_element_by_name() method only returns the first element with the matching class. If multiple elements of the same name exist, the first matched element will be returned. No matching elements result in a NoSuchElementException error.
+
+### Locate Elements by XPath
+If one has failed to identify an element by ID, class, or name, one would need to locate the element through its XML path.
+We will use the .find_element_by_xpath() method to locate an appropriate element in the document. The argument that the .find_element_by_xpath() method takes is the path to the element.
+
+### Locate Elements by tagName
+One can locate elements by their HTML tag name using the .find_element_by_tag_name() method.
+page_heading = driver.find_element_by_tag_name('h1')
+
+###  Locate Elements by linkText
+One can also search for a hyperlink element using the link text. One can either use the .find_element_by_link_text() method to search for the exact link’s text.
+Exact Link Text
+click_here_link = driver.find_element_by_link_text('Click Here')
+
+
+### Locate Elements by partialLinkText
+Or one can also search for a hyperlink element using the partial link text .find_element_by_partial_link_text() method to search for a partial text.
+Partial Link Text 
+click_here_link = driver.find_element_by_partial_link_text('Click')
+
 
 
 
