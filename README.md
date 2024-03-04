@@ -1,6 +1,7 @@
 # Table of Contents
 
 [What is Selenium](https://github.com/irfanahmad2000/mdFile/blob/main/README.md#what-is-selenium-1)
+[Automation Testing](https://github.com/irfanahmad2000/mdFile/blob/main/README.md#automation-testing)
 - 
 # What is Selenium
 Selenium is one of the most widely used open source Web UI (User Interface) automation testing suite.It was originally developed by Jason Huggins in 2004 as an internal tool at Thought Works. Selenium supports automation across different browsers, platforms and programming languages.
