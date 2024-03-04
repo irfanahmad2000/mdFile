@@ -6,7 +6,7 @@
 -
 [Test Automation for Web Applications ](https://github.com/irfanahmad2000/mdFile/blob/main/README.md#automation-testing-1)
 -
-[Test Automation for Web Applications ](https://github.com/irfanahmad2000/mdFile/blob/main/README.md#configuring-selenium-in-eclipse)
+[Configuring Selenium in Eclipse ](https://github.com/irfanahmad2000/mdFile/blob/main/README.md#configuring-selenium-in-eclipse)
 -
 # What is Selenium
 Selenium is one of the most widely used open source Web UI (User Interface) automation testing suite.It was originally developed by Jason Huggins in 2004 as an internal tool at Thought Works. Selenium supports automation across different browsers, platforms and programming languages.
