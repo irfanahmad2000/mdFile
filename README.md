@@ -9,7 +9,7 @@
 -
 [Automation Testing](https://github.com/irfanahmad2000/mdFile/blob/main/README.md#automation-testing-1)
 -
-[Test Automation for Web Applications ](https://github.com/irfanahmad2000/mdFile/blob/main/README.md#automation-testing-1)
+[Test Automation for Web Applications ](https://github.com/irfanahmad2000/mdFile/blob/main/README.md#test-automation-for-web-applications)
 -
 [Configuring Selenium in Eclipse ](https://github.com/irfanahmad2000/mdFile/blob/main/README.md#configuring-selenium-in-eclipse)
 -
