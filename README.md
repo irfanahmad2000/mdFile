@@ -132,6 +132,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
+
 public class LoginPage {
 	WebDriver driver = null;
 	@BeforeSuite
@@ -202,6 +203,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
+
 public class LoginPage {
 	WebDriver driver = null;
 	@BeforeSuite
@@ -212,6 +214,7 @@ public class LoginPage {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 }
+
 	@Test
 	public void loginForm() throws InterruptedException {
 		WebElement username = driver.findElement(By.cssSelector("[id=\"username\"]"));
