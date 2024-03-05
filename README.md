@@ -195,7 +195,6 @@ Partial Link Text
 ### 1st
 
 package com.demo;
-
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
