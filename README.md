@@ -194,17 +194,17 @@ Partial Link Text
 -
 ### 1st
 
-package com.demo;
-import java.util.concurrent.TimeUnit;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Test;
+    package com.demo;
+    import java.util.concurrent.TimeUnit;
+    import org.openqa.selenium.By;
+    import org.openqa.selenium.WebDriver;
+    import org.openqa.selenium.WebElement;
+    import org.openqa.selenium.chrome.ChromeDriver;
+    import org.testng.annotations.AfterSuite;
+    import org.testng.annotations.BeforeSuite;
+    import org.testng.annotations.Test;
 
-public class LoginPage {
+    public class LoginPage {
     WebDriver driver = null;
 
     @BeforeSuite
@@ -269,24 +269,24 @@ public class LoginPage {
         driver.close();
         driver.quit();
     }
-}
+    }
 
 
 
 ## 2nd
 
-package com.demo;
+    package com.demo;
 
-import java.util.concurrent.TimeUnit;
+    import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Test;
+    import org.openqa.selenium.By;
+    import org.openqa.selenium.WebDriver;
+    import org.openqa.selenium.WebElement;
+    import org.openqa.selenium.chrome.ChromeDriver;
+    import org.testng.annotations.BeforeSuite;
+    import org.testng.annotations.Test;
 
-public class PracticeSection {
+    public class PracticeSection {
 
 	WebDriver driver = null;
 
@@ -353,7 +353,7 @@ public class PracticeSection {
 	
 
 	}
-}
+    }
 
 
 
