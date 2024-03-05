@@ -17,8 +17,8 @@
 -
 [Download WebDriver](https://github.com/irfanahmad2000/mdFile/blob/main/README.md#download-webdriver-1)
 -
-[Create a Project](https://github.com/irfanahmad2000/mdFile/blob/main/README.md#create-a-project-1)
-
+[Create a Project](https://github.com/irfanahmad2000/mdFile/blob/main/README.md#create-a-project)
+-
 [Locators in Selenium](https://github.com/irfanahmad2000/mdFile/blob/main/README.md#locators-in-selenium-1)
 
 [Test Script](https://github.com/irfanahmad2000/mdFile/blob/main/README.md#test-script-1)
