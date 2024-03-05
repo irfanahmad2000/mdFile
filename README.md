@@ -1,3 +1,7 @@
+# Selenium automation
+![Alt Text](https://static.javatpoint.com/tutorial/selenium/images/selenium-webdriver-architecture.png)
+-
+
 # Table of Contents
 
 [What is Selenium](https://github.com/irfanahmad2000/mdFile/blob/main/README.md#what-is-selenium-1)
