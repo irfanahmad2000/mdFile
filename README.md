@@ -188,6 +188,201 @@ Exact Link Text
 Or one can also search for a hyperlink element using the partial link text .find_element_by_partial_link_text() method to search for a partial text.
 Partial Link Text 
 ### click_here_link = driver.find_element_by_partial_link_text('Click')
+# Test Script
+-
+### 1st
+package com.demo;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+
+public class LoginPage {
+
+	WebDriver driver = null;
+
+	@BeforeSuite
+	public void doSetUp() {
+		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+		driver = new ChromeDriver();
+
+		driver.get("https://practicetestautomation.com/practice-test-login/");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+}
+	@Test
+	public void loginForm() throws InterruptedException {
+		WebElement username = driver.findElement(By.cssSelector("[id=\"username\"]"));
+		username.sendKeys("student");
+		
+		WebElement password = driver.findElement(By.cssSelector("[id=\"password\"]"));
+		password.sendKeys("Password123");
+		
+		Thread.sleep(900);
+		
+		WebElement button = driver.findElement(By.className("btn"));
+		button.click();
+		
+		WebElement home = driver.findElement(By.xpath(
+				
+				
+				
+				
+				
+				
+				"//a[text()='Home']"));
+		home.click();
+		
+		Thread.sleep(900);
+		
+		WebElement practice = driver.findElement(By.xpath("//a[text()='Practice']"));
+		practice.click();
+		
+		Thread.sleep(900);
+		WebElement courses = driver.findElement(By.xpath("//a[text()='Courses']"));
+		courses.click();
+		
+		Thread.sleep(900);
+		WebElement blog = driver.findElement(By.xpath("//a[text()='Blog']"));
+		blog.click();
+		
+		Thread.sleep(900);
+		WebElement contact = driver.findElement(By.xpath("//a[text()='Contact']"));
+		contact.click();
+		
+		WebElement firstName = driver.findElement(By.cssSelector("[id=\"wpforms-161-field_0\"]"));
+		firstName.sendKeys("Irfan");
+		
+		
+		WebElement lastName = driver.findElement(By.cssSelector("[id=\"wpforms-161-field_0-last\"]"));
+		lastName.sendKeys("Ahmad");
+		
+		WebElement email = driver.findElement(By.cssSelector("[id=\"wpforms-161-field_1\"]"));
+		email.sendKeys("irfan@gmail.com");
+		
+		
+		WebElement message = driver.findElement(By.cssSelector("[id=\"wpforms-161-field_2\"]"));
+		message.sendKeys("whole secret Santa development team  is LOL ! Aman Panwar , Aditi Singh ,Irfan Ahmad");
+		
+		 driver.switchTo().frame(driver.findElement(By.xpath("//ifram[@title='reCAPTCHA']")));
+		driver.findElement(By.cssSelector(".recaptcha-checkbox-border")).click();
+		 
+		Thread.sleep(5000);
+	
+	}
+	
+		
+		@Test
+		public void negativeUser() throws InterruptedException
+		{
+			WebElement username = driver.findElement(By.cssSelector("[id=\"username\"]"));
+			username.sendKeys("student1");
+			
+			WebElement password = driver.findElement(By.cssSelector("[id=\"password\"]"));
+			password.sendKeys("Password123");
+			
+			Thread.sleep(900);
+			
+			WebElement button = driver.findElement(By.className("btn"));
+			button.click();
+			Thread.sleep(900);
+		}
+
+@AfterSuite
+public void doLogin() {
+	driver.close();
+	driver.quit();
+
+}
+}
+
+## 2nd
+
+package com.demo;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+
+public class PracticeSection {
+
+	WebDriver driver = null;
+
+	@BeforeSuite
+	public void doSetUp() {
+		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+		driver = new ChromeDriver();
+
+		driver.get("https://practicetestautomation.com/practice-test-login/");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	}
+
+	@Test(priority = 1)
+	public void FillPracticeForm() throws InterruptedException {
+		WebElement username = driver.findElement(By.cssSelector("[id=\"username\"]"));
+		username.sendKeys("student");
+
+		WebElement password = driver.findElement(By.cssSelector("[id=\"password\"]"));
+		password.sendKeys("Password123");
+
+		Thread.sleep(900);
+
+		WebElement button = driver.findElement(By.className("btn"));
+		button.click();
+
+		WebElement practice = driver.findElement(By.xpath("//a[text()='Practice']"));
+		practice.click();
+
+		WebElement test = driver.findElement(By.xpath("//a[text()='Test Exceptions']"));
+		test.click();
+
+		WebElement editbt = driver.findElement(By.className("btn"));
+		editbt.click();
+
+		WebElement text = driver.findElement(By.className("input-field"));
+
+		//
+
+		text.clear();
+		text.sendKeys("New text");
+		WebElement save = driver.findElement(By.cssSelector("[id=\"save_btn\"]"));
+
+		save.click();
+		// id="save_btn"
+
+		Thread.sleep(900);
+		
+		WebElement add = driver.findElement(By.cssSelector("[id=\"add_btn\"]"));
+		add.click();
+		Thread.sleep(9000);
+		
+		WebElement testadd = driver.findElement(By.xpath("(//[@class='input-field'])[2]"));
+		testadd.sendKeys("yes");
+		
+		
+		
+		
+		Thread.sleep(9000);
+		
+
+		driver.quit();
+
+	
+
+	}
+}
 
 
 
