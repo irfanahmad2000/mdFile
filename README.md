@@ -19,7 +19,7 @@
 -
 [Create a Project](https://github.com/irfanahmad2000/mdFile/blob/main/README.md#create-a-project-1)
 -
-[Locators in Selenium](https://github.com/irfanahmad2000/mdFile/blob/main/README.md#locators-in-selenium)
+[Locators in Selenium](https://github.com/irfanahmad2000/mdFile/blob/main/README.md#locators-in-selenium-1)
 -
 [Test Script](https://github.com/irfanahmad2000/mdFile/blob/main/README.md#test-script-1)
 -
