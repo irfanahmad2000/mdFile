@@ -1,4 +1,5 @@
-# Selenium automation
+ <h1 align="center"> Selenium automation</h1>
+ 
 ![Alt Text](https://rms.koenig-solutions.com/Sync_data/CCE_Logo//3040-selenium(1).pngL.jpg)
 -
 
