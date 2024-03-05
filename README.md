@@ -269,7 +269,7 @@ public class LoginPage {
 		
 		
 		WebElement message = driver.findElement(By.cssSelector("[id=\"wpforms-161-field_2\"]"));
-		message.sendKeys("whole secret Santa development team  is LOL ! Aman Panwar , Aditi Singh ,Irfan Ahmad");
+		message.sendKeys("whole secret Santa development team  is excellent ! Aman Panwar , Aditi Singh ,Irfan Ahmad");
 		
 		 driver.switchTo().frame(driver.findElement(By.xpath("//ifram[@title='reCAPTCHA']")));
 		driver.findElement(By.cssSelector(".recaptcha-checkbox-border")).click();
@@ -295,6 +295,8 @@ public class LoginPage {
 			Thread.sleep(900);
 		}
 
+
+
 @AfterSuite
 public void doLogin() {
 	driver.close();
@@ -302,6 +304,8 @@ public void doLogin() {
 
 }
 }
+
+
 
 ## 2nd
 
