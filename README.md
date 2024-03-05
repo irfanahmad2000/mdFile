@@ -19,10 +19,10 @@
 -
 [Create a Project](https://github.com/irfanahmad2000/mdFile/blob/main/README.md#create-a-project-1)
 -
-[Locators in Selenium](https://github.com/irfanahmad2000/mdFile/blob/main/README.md#locators-in-selenium-1)
-
+[Locators in Selenium](https://github.com/irfanahmad2000/mdFile/blob/main/README.md#locators-in-selenium)
+-
 [Test Script](https://github.com/irfanahmad2000/mdFile/blob/main/README.md#test-script-1)
-
+-
 # What is Selenium
 Selenium is one of the most widely used open source Web UI (User Interface) automation testing suite.It was originally developed by Jason Huggins in 2004 as an internal tool at Thought Works. Selenium supports automation across different browsers, platforms and programming languages.
 Selenium can be easily deployed on platforms such as Windows, Linux, Solaris and Macintosh. Moreover, it supports OS (Operating System) for mobile applications like iOS, windows mobile and android.
