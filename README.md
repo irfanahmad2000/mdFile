@@ -192,10 +192,9 @@ Partial Link Text
 # Test Script
 -
 ### 1st
+
 package com.demo;
-
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -203,16 +202,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
-
 public class LoginPage {
-
 	WebDriver driver = null;
-
 	@BeforeSuite
 	public void doSetUp() {
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		driver = new ChromeDriver();
-
 		driver.get("https://practicetestautomation.com/practice-test-login/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -221,61 +216,36 @@ public class LoginPage {
 	public void loginForm() throws InterruptedException {
 		WebElement username = driver.findElement(By.cssSelector("[id=\"username\"]"));
 		username.sendKeys("student");
-		
 		WebElement password = driver.findElement(By.cssSelector("[id=\"password\"]"));
 		password.sendKeys("Password123");
-		
 		Thread.sleep(900);
-		
 		WebElement button = driver.findElement(By.className("btn"));
 		button.click();
-		
-		WebElement home = driver.findElement(By.xpath(
-				
-				
-				
-				
-				
-				
-				"//a[text()='Home']"));
+		WebElement home = driver.findElement(By.xpath("//a[text()='Home']"));		
 		home.click();
-		
 		Thread.sleep(900);
-		
 		WebElement practice = driver.findElement(By.xpath("//a[text()='Practice']"));
 		practice.click();
-		
 		Thread.sleep(900);
 		WebElement courses = driver.findElement(By.xpath("//a[text()='Courses']"));
 		courses.click();
-		
 		Thread.sleep(900);
 		WebElement blog = driver.findElement(By.xpath("//a[text()='Blog']"));
 		blog.click();
-		
 		Thread.sleep(900);
 		WebElement contact = driver.findElement(By.xpath("//a[text()='Contact']"));
 		contact.click();
-		
 		WebElement firstName = driver.findElement(By.cssSelector("[id=\"wpforms-161-field_0\"]"));
 		firstName.sendKeys("Irfan");
-		
-		
 		WebElement lastName = driver.findElement(By.cssSelector("[id=\"wpforms-161-field_0-last\"]"));
 		lastName.sendKeys("Ahmad");
-		
 		WebElement email = driver.findElement(By.cssSelector("[id=\"wpforms-161-field_1\"]"));
 		email.sendKeys("irfan@gmail.com");
-		
-		
 		WebElement message = driver.findElement(By.cssSelector("[id=\"wpforms-161-field_2\"]"));
 		message.sendKeys("whole secret Santa development team  is excellent ! Aman Panwar , Aditi Singh ,Irfan Ahmad");
-		
 		 driver.switchTo().frame(driver.findElement(By.xpath("//ifram[@title='reCAPTCHA']")));
 		driver.findElement(By.cssSelector(".recaptcha-checkbox-border")).click();
-		 
 		Thread.sleep(5000);
-	
 	}
 	
 		
@@ -284,24 +254,17 @@ public class LoginPage {
 		{
 			WebElement username = driver.findElement(By.cssSelector("[id=\"username\"]"));
 			username.sendKeys("student1");
-			
 			WebElement password = driver.findElement(By.cssSelector("[id=\"password\"]"));
 			password.sendKeys("Password123");
-			
 			Thread.sleep(900);
-			
 			WebElement button = driver.findElement(By.className("btn"));
 			button.click();
 			Thread.sleep(900);
 		}
-
-
-
 @AfterSuite
 public void doLogin() {
 	driver.close();
 	driver.quit();
-
 }
 }
 
