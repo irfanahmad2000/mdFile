@@ -1,5 +1,5 @@
 # Selenium automation
-![Alt Text](https://static.javatpoint.com/tutorial/selenium/images/selenium-webdriver-architecture.png)
+![Alt Text](https://rms.koenig-solutions.com/Sync_data/CCE_Logo//3040-selenium(1).pngL.jpg)
 -
 
 # Table of Contents
